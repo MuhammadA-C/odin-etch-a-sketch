@@ -1,5 +1,12 @@
 body {
   background-color: rgb(24, 24, 32);
+  margin: 0;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
 }
 
 #grid-container {
@@ -12,6 +19,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 960px;
+  border-style: solid;
+  border-width: 2rem;
+  border-radius: 1rem;
+  border-color: red;
 }
 
 #grid > div {
@@ -20,4 +31,6 @@ body {
   border-color: black;
   border-width: 1px;
 }
+
+
 

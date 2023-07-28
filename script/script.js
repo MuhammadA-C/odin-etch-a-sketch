@@ -22,5 +22,11 @@ for (let i = 0; i < gridSize; i++) {
   div.style.width = `${diveSize}px`;
   div.style.height = `${diveSize}px`;
 
+  div.addEventListener("mouseenter", () => {
+    div.style.backgroundColor = "black";
+  });
+
   grid.appendChild(div);
 }
+
+
