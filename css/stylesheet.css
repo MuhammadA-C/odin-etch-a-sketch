@@ -1,12 +1,25 @@
 body {
-  background-color: rgb(24, 24, 32);
+  background-color: #19112f;
   margin: 0;
 }
+
 .name {
   display: flex;
   justify-content: center;
   color: white;
   font-size: 36px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  height: 30px;
+  font-size: 24px;
+}
+
+input {
+  width: 100px;
 }
 
 #grid-container {
@@ -22,7 +35,7 @@ body {
   border-style: solid;
   border-width: 2rem;
   border-radius: 1rem;
-  border-color: red;
+  border-color: rgb(82, 59, 230);
 }
 
 #grid > div {
@@ -32,23 +45,33 @@ body {
   border-width: 1px;
 }
 
-.button {
+.controls {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  gap: 4rem;
 }
 
 button {
-  width: 200px;
   height: 40px;
   border-radius: 1rem;
   border-style: none;
   font-size: 24px;
 }
 
-.button-hover-effect:hover {
+.btn-reset {
+  width: 150px;
+}
+
+.btn-grid-size {
+  width: 250px;
+
+}
+
+.btn-hover-effect:hover {
   background-color: gray;
 }
+
 
 
 
